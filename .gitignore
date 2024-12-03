@@ -6,3 +6,11 @@
 
 # Ignore all .pdf files
 *.pdf
+
+# Ignore all json config files
+*.json
+
+# Ignore all images
+*.jpg
+
+data

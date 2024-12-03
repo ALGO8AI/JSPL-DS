@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  digital-checklisting-app:
+    build:
+      context: ./digital-checklisting-app
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"  # Map port 5000 of the container to port 5000 of the host
+    restart: always
