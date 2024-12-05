@@ -10,7 +10,7 @@ def test_calculate_preparation_time():
         ],
         "Mainteinence": [
             {"Electrode change": 15},
-            {"Gunning": 20},
+            {"Gunning": 30},
             {"Other": 10}
         ]
     }
